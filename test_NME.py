@@ -289,8 +289,8 @@ def save_image_example(train_loader, args):
 def parse_arguments(argv):
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--file_list', type=str, default='data/300W/train_data/list.txt')
-    parser.add_argument('--test_list', type=str, default='data/300W/test_data/list.txt')
+    parser.add_argument('--file_list', type=str, default='data/300W/challenge/train_data/list.txt')
+    parser.add_argument('--test_list', type=str, default='data/300W/challenge/test_data/list.txt')
     parser.add_argument('--loss_log_dir', type=str, default='./train_loss_log/')
     parser.add_argument('--seed', type=int, default=666)
     parser.add_argument('--max_epoch', type=int, default=1000)
